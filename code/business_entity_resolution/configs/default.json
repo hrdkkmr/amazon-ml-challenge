@@ -1,0 +1,32 @@
+{
+  "df_cap_name": 3000,
+  "valid_frac": 0.2,
+  "seed": 42,
+  "model": "hgb",
+  "n_workers": 6,
+  "extra": {
+    "pool_k": [
+      30,
+      15,
+      15
+    ],
+    "cand_k": [
+      10,
+      3,
+      3
+    ],
+    "retrieve_workers": 5,
+    "n_train_s1": 600000,
+    "score_chunk_s1": 60000,
+    "two_stage": true,
+    "use_filter": true,
+    "filter_thr": 0.002,
+    "n_filter_s1": 200000,
+    "model_params": {
+      "max_leaf_nodes": 255,
+      "max_iter": 1200,
+      "learning_rate": 0.05,
+      "min_samples_leaf": 100
+    }
+  }
+}

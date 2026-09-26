@@ -1,0 +1,50 @@
+{
+ "decision": {
+  "rule": "expf,mm=0.1,floor=0.2",
+  "o2o": true,
+  "mode": "expf",
+  "miss_mass": 0.1,
+  "floor": 0.2,
+  "valid_f05": 0.9805913542861053
+ },
+ "all": {
+  "f05": 0.9805913542861053,
+  "precision_micro": 0.9958480330843613,
+  "recall_micro": 0.9521002152909568,
+  "n_s1": 441364,
+  "singleton_acc": 0.9770312244564329
+ },
+ "f05_by_n_true": {
+  "0": 0.977,
+  "1": 0.9321,
+  "2": 0.9784,
+  "3": 0.9838,
+  "4": 0.9855,
+  "5": 0.9858,
+  "6": 0.9859,
+  "7": 0.986,
+  "8": 0.9856
+ },
+ "country=India": {
+  "f05": 0.9779367646917394,
+  "precision_micro": 0.994774941676959,
+  "recall_micro": 0.946714901869876,
+  "n_s1": 176798,
+  "singleton_acc": 0.9745641025641025
+ },
+ "country=US": {
+  "f05": 0.982365301547298,
+  "precision_micro": 0.9965601081824349,
+  "recall_micro": 0.9557012253363535,
+  "n_s1": 264566,
+  "singleton_acc": 0.9786655795624406
+ },
+ "errors": {
+  "true_pairs": 1528629,
+  "fn_not_in_candidates": 29132,
+  "fn_in_candidates_rejected": 44089,
+  "fp_total": 6068,
+  "fp_on_singleton_s1": 657,
+  "s1_with_perfect_f05": 0.843143074650402
+ }
+}

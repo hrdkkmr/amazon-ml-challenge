@@ -1,0 +1,8 @@
+{
+ "rule": "expf,mm=0.1,floor=0.2",
+ "o2o": true,
+ "mode": "expf",
+ "miss_mass": 0.1,
+ "floor": 0.2,
+ "valid_f05": 0.9805913542861053
+}
